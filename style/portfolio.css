@@ -80,7 +80,23 @@ padding: 15px 35pxs;
   font-weight: 700;
 }
 /*-------main section styles-------*/
+.main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /*--------about section styles-----*/
 .about{
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
 
+}
+.info-container{
+  display: flex;
+  justify-content: space-between;
+
+}
+.info{
+  text-align: center;
 }
