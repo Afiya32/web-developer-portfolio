@@ -5,6 +5,17 @@ body{
 .text-p{
   color: #FD6E0A;
 }
+.section-tittle{
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+section-details{
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+}
 
 
 /*----nav bar---*/
@@ -42,12 +53,34 @@ padding: 15px 35pxs;
 /*-----header related style----*/
 .header{
   background-color: #fff8f3;
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner{
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
+  justify-content: space-between;
+}
+.content{
+  max-width: 500px;
 }
 ,banner .profile{
   width: 500px;
   
+}
+.wlc{
+  font-size: 45px;
+  color: #181818;
+  margin-bottom: 1px;
+  margin-top: 2px;
+}
+.b-n{
+  font-size: 85px;
+  font-weight: 700;
+}
+/*-------main section styles-------*/
+/*--------about section styles-----*/
+.about{
+
 }
